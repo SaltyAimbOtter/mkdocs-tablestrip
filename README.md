@@ -7,7 +7,7 @@ The Markdown files remain unchanged.
 This can be useful if your documentation contains data that is automatically parsed but not relevant for the end user.
  
 ## Installation
-`pip install mkdocs-tablestip`
+`pip install mkdocs-tablestrip`
 
 Consider adding the plugins to a `requirements.txt` file alongside other Python dependencies for your project.
 

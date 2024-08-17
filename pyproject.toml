@@ -1,6 +1,6 @@
 [project]
 name = "mkdocs-tablestrip"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
     { name="CyberOtter", email="baum.np79a@slmail.me" },
 ]

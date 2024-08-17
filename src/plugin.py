@@ -5,6 +5,7 @@ from mkdocs.config.defaults import MkDocsConfig
 from mkdocs.plugins import BasePlugin
 
 
+
 class TableStripPluginConfig(Config):
     strip_word = option.Type(str)
 
@@ -28,7 +29,7 @@ class TableStrip(BasePlugin[TableStripPluginConfig]):
             found_keyword = False
 
             for heading in headings:
-                if heading.text == TableStrip.strip_word:
+                if heading.text == self.strip_word:
                     found_keyword = True
                     break
                 heading_index += 1
